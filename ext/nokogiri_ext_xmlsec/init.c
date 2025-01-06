@@ -9,6 +9,8 @@
 #include <libxslt/security.h>
 #endif /* XMLSEC_NO_XSLT */
 
+#define XMLSEC_CRYPTO "openssl"
+
 EXTENSION_EXPORT
 void Init_nokogiri_ext_xmlsec() {
 #ifndef XMLSEC_NO_XSLT
